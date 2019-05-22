@@ -124,11 +124,11 @@
 				</configuration>
 			</plugin>
 
-			<!-- sonar代码扫描 mvn sonar:sonar -->
-			<plugin>
+			<!-- sonar代码扫描 mvn sonar:sonar 直接在mvn中运行，无需在pom中再配置-->
+<!-- 			<plugin>
 				<groupId>org.sonarsource.scanner.maven</groupId>
 				<artifactId>sonar-maven-plugin</artifactId>
-			</plugin>	
+			</plugin>	 -->
 
 		</plugins>
 	</build>
